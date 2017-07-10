@@ -1,0 +1,262 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height:100%;
+    background:#2a2e36;
+}
+header{
+    width:100%;
+    height:1.02rem;
+    background:#169354;
+    position:relative;
+}
+.back,.more{
+    width:0.55rem;
+    height:0.55rem;
+    background:#22be6f;
+    border-radius:50%;
+    float:left;
+    margin-top:0.24rem;
+    margin-left:0.24rem;
+    box-shadow: 0 0.06rem 0.12rem -0.04rem rgba(0, 0, 0, 0.176);
+    position:relative;
+}
+.back img{
+    width:0.39rem;
+    height:0.39rem;
+    position:absolute;
+    top:0;bottom:0;
+    right:0;left:0;
+    margin:auto;
+}
+header .more{
+    float:right;
+    margin:0.24rem;
+}
+.more .dian{
+    width:0.09rem;
+    height:0.09rem;
+    background:#fff;
+    border-radius: 50%;
+    float:left;
+    margin-right:0.04rem;
+    margin-top:0.23rem;
+}
+.more .dian:first-child{
+    margin-left:0.1rem;
+}
+.title{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:1.02rem;
+}
+.title .t1{
+    color:#1f468d;
+    font-family: "苹方 特粗";
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top:0.23rem;
+    font-weight: bold;
+}
+.title .t2{
+    color:#fff;
+    font-family: "苹方 特粗";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+    position:absolute;
+    top:0.23rem;
+    left:0;right:0;
+    margin:auto;
+    margin-left:-0.08rem;
+}
+.title .t3{
+    color:#1f468d;
+    margin-top:-0.07rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.title .t4{
+    color:#fff;
+    bottom:0.1rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+    position:absolute;
+    left:0;right:0;
+    margin:auto;
+    margin-left:-0.08rem;
+}
+.zi1{
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size:0.34rem;
+    color:#fff;
+    margin-left:0.24rem;
+    margin-top:0.2rem;
+}
+.zi2{
+    font-family: "苹方 特粗";
+    font-size: 0.36rem;
+    color:#fff;
+    margin-left:0.24rem;
+    font-weight: bold;
+    margin-top:0.1rem;
+}
+.fenge{
+    width:1.33rem;
+    height:0.013rem;
+    background:#fff;
+    margin-left:0.24rem;
+    margin-top:0.3rem;
+}
+.bg{
+    width:5.94rem;
+    height:8.19rem;
+    background:#f6f6f6;
+    border-radius: 0.08rem;
+    margin:0 auto;
+    margin-top:0.65rem;
+    position:relative;
+}
+.yuan1{
+    width:0.2rem;
+    height:0.2rem;
+    background:#2a2e36;
+    border-radius: 50%;
+    position:absolute;
+    top:2.33rem;
+    left:-0.1rem;
+}
+.yuan2{
+    width:0.2rem;
+    height:0.2rem;
+    background:#2a2e36;
+    border-radius: 50%;
+    position:absolute;
+    top:2.33rem;
+    right:-0.1rem;
+}
+.ctitle{
+    font-family: "苹方 特粗";
+    font-size: 0.26rem;
+    font-weight: bold;
+    color:#575757;
+    text-align: center;
+    padding-top:0.3rem;
+}
+.ftitle{
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size:0.22rem;
+    color:#767676;
+    text-align: center;
+}
+.btn{
+    width:5.74rem;
+    height:0.89rem;
+    background:#169354;
+    border-radius: 2rem;
+    margin:0 auto;
+    margin-top:0.38rem;
+    box-shadow: 0 0.06rem 0.12rem -0.04rem rgba(0, 0, 0, 0.176);
+}
+.zfb,.wx{
+    width:2.43rem;
+    height:0.82rem;
+    background-image: url("../img/zn-zfb.png");
+    background-size:100%;
+    float:left;
+    margin-left:0.4rem;
+    margin-top:0.2rem;
+    box-shadow: 0 0.1rem 0.2rem -0.04rem rgba(0, 168, 240, 0.6);
+}
+.wx{
+    background-image:url("../img/zn-wx.png");
+    margin-left:0.18rem;
+    box-shadow: 0 0.1rem 0.2rem -0.04rem rgba(21, 172, 81, 0.6);
+}
+.clear{
+    clear:both;
+}
+.hdfk{
+    width:4.87rem;
+    height:0.82rem;
+    border:1px solid #dbdbdb;
+    border-radius: 0.08rem;
+    background:#fff;
+    margin:0 auto;
+    box-shadow: 0 0.1rem 0.2rem -0.04rem rgba(0, 0, 0, 0.17);
+    margin-top:0.2rem;
+    position:relative;
+}
+.tb{
+    width:0.64rem;
+    height:0.64rem;
+    background:#2970ff;
+    border-radius: 0.2rem;
+    position: absolute;
+    top:0.08rem;
+    left:0.14rem;
+}
+.tb.qb{
+    background:#22b4f2;
+}
+.tb.card{
+    background:#fdfd09;
+}
+.tb img{
+    position:absolute;
+    top:0;bottom:0;
+    right:0;left:0;
+    margin:auto;
+}
+.method{
+    padding-left:0.94rem;
+    font-family: "苹方 特粗";
+    font-size: 0.26rem;
+    font-weight: bold;
+    color:#6d6d6d;
+    margin-top:0.08rem;
+}
+.em{
+    padding-left:0.94rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size:0.22rem;
+    color:#949393;
+}
+.tiao{
+    width:0.06rem;
+    height:0.58rem;
+    background:#0ecf8a;
+    border-radius: 0.2rem;
+    position:absolute;
+    top:0;bottom:0;
+    right:0.06rem;
+    margin:auto;
+}
+.next{
+    font-family: "苹方 特粗";
+    font-size: 0.36rem;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    padding-top:0.1rem;}
+.enext{
+    margin-top:-0.1rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size:0.3rem;
+    color:#fff;
+    text-align: center;
+}
