@@ -17,6 +17,7 @@ body{
     bottom:0;
     left: 0.23rem;
     margin: auto;
+    box-shadow: 0 0.06rem 0.12rem -0.04rem rgba(0, 0, 0, 0.176);
 }
 .c-tou{
     width: 0.55rem;
@@ -28,6 +29,7 @@ body{
     bottom:0;
     right: 0.23rem;
     margin: auto;
+    box-shadow: 0 0.06rem 0.12rem -0.04rem rgba(0, 0, 0, 0.176);
 }
 .c-tou img {
     width:0.35rem;
@@ -43,6 +45,95 @@ body{
     margin-top: 0.1rem;
     display: block;
 }
+header{
+    width:100%;
+    height:1.02rem;
+    background:#169354;
+    position:relative;
+}
+.back,.more{
+    width:0.55rem;
+    height:0.55rem;
+    background:#22be6f;
+    border-radius:50%;
+    float:left;
+    margin-top:0.24rem;
+    margin-left:0.24rem;
+
+    position:relative;
+}
+.back img{
+    width:0.39rem;
+    height:0.39rem;
+    position:absolute;
+    top:0;bottom:0;
+    right:0;left:0;
+    margin:auto;
+}
+header .more{
+    float:right;
+    margin:0.24rem;
+}
+.more .dian{
+    width:0.09rem;
+    height:0.09rem;
+    background:#fff;
+    border-radius: 50%;
+    float:left;
+    margin-right:0.04rem;
+    margin-top:0.23rem;
+}
+.more .dian:first-child{
+    margin-left:0.1rem;
+}
+.title{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:1.02rem;
+}
+.title .t1{
+    color:#1f468d;
+    font-family: "苹方 特粗";
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top:0.23rem;
+    font-weight: bold;
+}
+.title .t2{
+    color:#fff;
+    font-family: "苹方 特粗";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+    position:absolute;
+    top:0.23rem;
+    left:0;right:0;
+    margin:auto;
+    margin-left:-0.08rem;
+}
+.title .t3{
+    color:#1f468d;
+    margin-top:-0.07rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.title .t4{
+    color:#fff;
+    bottom:0.1rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+    position:absolute;
+    left:0;right:0;
+    margin:auto;
+    margin-left:-0.08rem;
+}
+
 .c-zi25{
     position: absolute;
     top:0.24rem;
@@ -298,21 +389,21 @@ body{
 }
 .c-tu{
     width: 6.25rem;
-    height:3.3rem;
+    height:3.8rem;
     margin: 0 auto;
 }
 .c-tu li{
-    width: 1.9rem;
+    width: 2.5rem;
     height:100%;
     background: #169354;
     float: left;
-    margin-left: 0.27rem;
+    margin-left: 0.43rem;
     position: relative;
     border-radius: 0.1rem;
 }
 .c-tu li img{
-    width: 1.9rem;
-    height:2.85rem;
+    width: 2.5rem;
+    height:3.3rem;
     display: block;
     -webkit-border-top-left-radius: 0.1rem;
     -webkit-border-top-right-radius: 0.1rem;
@@ -336,7 +427,8 @@ body{
     float: left;
     font-family: "San Francisco Display";
     color: #fff;
-    line-height: 0.5rem;
+    margin-left: 0.1rem;
+    line-height: 0.45rem;
     font-size: 0.16rem;
 }
 .c-tu3{
@@ -519,17 +611,19 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
+    background: #242830;
 }
 .db-1,.db-2,.db-3,.db-4{
-    width:1.77rem;
+    width:25%;
     height: 0.98rem;
     float: left;
-    background: #242830;
+    position: relative;
     font-size: 0.2rem;
     color: #fff;
+    overflow: hidden;
 }
 .db-2,.db-4{
-    background: #23272F;
+    /*background: #23272F;*/
 }
 .sy{
     font-size: 0.2rem;
@@ -572,4 +666,16 @@ body{
     position: absolute;
     right:0.2rem;
     top:0.1rem;
+}
+.c-dian{
+    width: 0.02rem;
+    height:0.02rem;
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #000;
+    position: absolute;
+
+    top:0;
+    bottom: 0;
+    left:-0.05rem;
+    margin: auto;
 }
