@@ -1,0 +1,135 @@
+.con1{
+    height:0.8rem;
+    width:100%;
+    text-align: center;
+    position: relative;
+}
+.con2{
+    height:1.86rem;
+    width: 100%;
+    text-align: center;
+}
+.p1{
+    font-size: 0.3rem;
+    font-weight: 600;
+    color:#fff;
+    text-align: center;
+}
+.wjxing{
+    display:inline-block ;
+}
+.wjxing img{
+    width:0.17rem;
+}
+.con4{
+    width:7.02rem;
+    height:0.93rem;
+    background: #fff;
+    margin:0 auto;
+    margin-bottom: 0.15rem;
+    border-radius:0.1rem;
+    padding:0.24rem  0.44rem 0.24rem 0.16rem;
+    position:relative;
+}
+.con4 span{
+    font-size:0.3rem;
+    color:#456FEA;
+}
+.con4 .img1{
+    height:0.5rem;
+    float:left;
+    padding-right:0.2rem;
+}
+.con4 .img2{
+    height:0.5rem;
+    float:right;
+}
+.con4 .img3{
+    float:left;
+    position: absolute;
+    top:0.4rem;
+    left:3.7rem;
+}
+.footer{
+    height:0.98rem;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+.dibu{
+    width:100%;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #242830;
+}
+.db-1,.db-2,.db-3,.db-4{
+    width:25%;
+    height: 0.98rem;
+    float: left;
+    position: relative;
+    font-size: 0.2rem;
+    color: #fff;
+    overflow: hidden;
+}
+.db-2,.db-4{
+    /*background: #23272F;*/
+}
+.sy{
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.sy2{
+    color:#EBD415;
+}
+.sy1{
+    width: 1rem;
+    height: 0.2rem;
+    display: block;
+    font-size: 0.2rem;
+    margin-left: 0.45rem;
+    text-align: center;
+    line-height: 0.2rem;
+}
+.sousuo{
+    width:0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    left:0.2rem;
+    top:0.1rem;
+}
+.sousuo img{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0.2rem;
+    top:0.1rem;
+}
+.geren{
+    width:0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    right:0.2rem;
+    top:0.1rem;
+}
+.geren img{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    right:0.2rem;
+    top:0.1rem;
+}
+.c-dian{
+    width: 0.02rem;
+    height:0.02rem;
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #000;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:-0.05rem;
+    margin: auto;
+}
