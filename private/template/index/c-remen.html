@@ -10,8 +10,18 @@
 </head>
 <body>
 <header>
+
+    <div class="title">
+        <div class="t1">热门活动
+        </div>
+        <div class="t2">热门活动</div>
+
+        <div class="t3">POPULAR ACTIVITIES
+        </div>
+        <div class="t4">POPULAR ACTIVITIES</div>
+    </div>
     <div class="back">
-        <a href="index.php?m=index&f=index&a=init" style="position:relative;z-index: 999; width:100%;height:100%;display: block"><img src="{IMG_PATH}/zn-back.png" alt=""></a>
+        <img src="{IMG_PATH}/zn-back.png" alt="">
     </div>
     <div class="more">
         <div class="dian">
@@ -23,15 +33,6 @@
         <div class="dian">
 
         </div>
-    </div>
-    <div class="title">
-        <div class="t1">热门活动
-        </div>
-        <div class="t2">热门活动</div>
-
-        <div class="t3">POPULAR ACTIVITIES
-        </div>
-        <div class="t4">POPULAR ACTIVITIES</div>
     </div>
 </header>
 <div class="kong2"style="width: 100%;height:1.02rem;"></div>
@@ -72,4 +73,9 @@
     </ul>
 </div>
 </body>
+<script>
+    document.querySelector(".back").onclick=function () {
+        location.href=history.go(-1);
+    }
+</script>
 </html>

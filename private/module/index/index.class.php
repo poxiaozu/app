@@ -1,6 +1,9 @@
 <?php
 class index extends indexMain {
     function init(){
+        $this->smarty->display("index.html");
+    }
+    function main(){
         /*$this->smarty->assign("login",$this->session->get("indexLogin"));
         $this->smarty->assign("mname",$this->session->get("mname"));
         $db=new db("lists");
@@ -20,7 +23,7 @@ class index extends indexMain {
 
         $pz=$db->where("posid like '%5%'")->select();
         $this->smarty->assign("pz",$pz);
-        $this->smarty->display("index.html");
+        $this->smarty->display("main.html");
     }
 
     function remen(){
@@ -37,6 +40,19 @@ class index extends indexMain {
     }
     function geren(){
         $this->smarty->display("geren.html");
+    }
+    function shangchuan(){
+        $this->smarty->display("shangchuan.html");
+    }
+    function xzks(){
+        $this->smarty->display("chooseStyle.html");
+    }
+    function detail(){
+        $lid=$_GET["lid"];
+        $db=new db("lists");
+        $det=$db->where("lid={$lid}")->select();
+        $this->smarty->assign("det",$det);
+        $this->smarty->display("grdz.html");
     }
     function code(){
         $obj=new code();

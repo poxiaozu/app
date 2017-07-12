@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:56:52
+/* Smarty version 3.1.30, created on 2017-07-12 13:32:23
   from "D:\wamp\www\app\private\template\index\dingzhi.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59658ff4742392_94140577',
+  'unifunc' => 'content_596608c723a580_45934562',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f10695420db77371d23bd200ffe13a07910c6f64' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\index\\dingzhi.html',
-      1 => 1499828210,
+      1 => 1499859137,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59658ff4742392_94140577 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596608c723a580_45934562 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -41,14 +41,7 @@ function content_59658ff4742392_94140577 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 <header>
-    <div class="back">
-        <img src="<?php echo IMG_PATH;?>
-/c-19.png" alt="">
-    </div>
-    <div class="more">
-        <img src="<?php echo IMG_PATH;?>
-/c-18.png" alt="">
-    </div>
+
     <div class="title">
         <div class="t1">定制
         </div>
@@ -57,6 +50,14 @@ function content_59658ff4742392_94140577 (Smarty_Internal_Template $_smarty_tpl)
         <div class="t3">CUSTOMIZEN
         </div>
         <div class="t4">CUSTOMIZEN</div>
+    </div>
+    <div class="back">
+        <a href="index.php?m=index&f=index&a=sou" style="width:100%;height:100%;display:block;position:relative;z-index: 999;"> <img src="<?php echo IMG_PATH;?>
+/c-19.png" alt=""></a>
+    </div>
+    <div class="more">
+        <img src="<?php echo IMG_PATH;?>
+/c-18.png" alt="">
     </div>
 </header>
     <div class="banner">
@@ -113,10 +114,10 @@ function content_59658ff4742392_94140577 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
     <div class="jc-sc">
-        <a href="JavaScript:;"><div class="sc">
+        <a href="index.php?m=index&f=index&a=shangchuan"><div class="sc">
             上传照片
         </div></a>
-        <a href="JavaScript:;"><div class="xz">
+        <a href="index.php?m=index&f=index&a=xzks"><div class="xz">
             选择款式
         </div></a>
     </div>
@@ -220,7 +221,7 @@ function content_59658ff4742392_94140577 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <div class="kong" style="width:7.5rem;height: 1.2rem;float: left"></div>
 <div class="dibu">
-    <div class="db-1"><a href="index.php">
+    <div class="db-1"><a href="index.php?m=index&f=index&a=main">
         <p class="iconfont icon-shouye sy" style="font-size: 0.3rem;"></p>
         <p class="sy1">首页</p>
         <div class="c-dian"></div></a>
