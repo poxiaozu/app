@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 02:50:25
+/* Smarty version 3.1.30, created on 2017-07-12 04:56:52
   from "D:\wamp\www\app\private\template\index\dingzhi.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596572513429d0_82724584',
+  'unifunc' => 'content_59658ff4742392_94140577',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f10695420db77371d23bd200ffe13a07910c6f64' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\index\\dingzhi.html',
-      1 => 1499820499,
+      1 => 1499828210,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596572513429d0_82724584 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59658ff4742392_94140577 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -219,28 +219,28 @@ function content_596572513429d0_82724584 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
     <div class="kong" style="width:7.5rem;height: 1.2rem;float: left"></div>
-    <div class="dibu">
-        <a href="javascript:;"><div class="db-1">
-            <p class="iconfont icon-shouye sy"></p>
-            <p class="sy1">首页</p>
-            <div class="c-dian"></div>
-        </div></a>
-        <a href="javascript:;"><div class="db-2">
-            <p class="iconfont icon-yifu sy" style="color: #E1CB17"></p>
-            <p class="sy1">定制</p>
-            <div class="c-dian"></div>
-        </div></a>
-            <a href="gwd.html"><div class="db-3">
-            <p class="iconfont icon-gouwudai sy"></p>
-            <p class="sy1">购物袋</p>
-                <div class="c-dian"></div>
-        </div></a>
-                <a href="javascript:;"><div class="db-4">
-            <p class="iconfont icon-ren sy"></p>
-            <p class="sy1">我的</p>
-                    <div class="c-dian"></div>
-        </div></a>
+<div class="dibu">
+    <div class="db-1"><a href="index.php">
+        <p class="iconfont icon-shouye sy" style="font-size: 0.3rem;"></p>
+        <p class="sy1">首页</p>
+        <div class="c-dian"></div></a>
     </div>
+    <div class="db-2"><a href="#">
+        <p class="iconfont icon-yifu sy" style="font-size: 0.3rem;color: yellow"></p>
+        <p class="sy1">定制</p>
+        <div class="c-dian"></div></a>
+    </div>
+    <div class="db-3"><a href="index.php?m=index&f=index&a=gwd">
+        <p class="iconfont icon-gouwudai sy" style="font-size: 0.3rem"></p>
+        <p class="sy1">购物袋</p>
+        <div class="c-dian"></div></a>
+    </div>
+    <div class="db-4"><a href="index.php?m=index&f=index&a=geren">
+        <p class="iconfont icon-ren sy" style="font-size: 0.3rem"></p>
+        <p class="sy1">我的</p>
+        <div class="c-dian"></div></a>
+    </div>
+</div>
 </body>
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>

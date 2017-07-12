@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 02:50:23
+/* Smarty version 3.1.30, created on 2017-07-12 04:35:07
   from "D:\wamp\www\app\private\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5965724f89cea0_98930051',
+  'unifunc' => 'content_59658adb6e3508_20983913',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2999e95b19cff2420e89ba62cf747404fc39bf8c' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\index\\index.html',
-      1 => 1499820356,
+      1 => 1499826898,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5965724f89cea0_98930051 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59658adb6e3508_20983913 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -418,12 +418,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
         <p class="sy1">定制</p>
         <div class="c-dian"></div></a>
     </div>
-    <div class="db-3"><a href="">
+    <div class="db-3"><a href="index.php?m=index&f=index&a=gwd">
         <p class="iconfont icon-gouwudai sy" style="font-size: 0.3rem"></p>
         <p class="sy1">购物袋</p>
         <div class="c-dian"></div></a>
     </div>
-    <div class="db-4"><a href="">
+    <div class="db-4"><a href="index.php?m=index&f=index&a=geren">
         <p class="iconfont icon-ren sy" style="font-size: 0.3rem"></p>
         <p class="sy1">我的</p>
         <div class="c-dian"></div></a>

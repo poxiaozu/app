@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 02:44:20
+/* Smarty version 3.1.30, created on 2017-07-12 04:51:36
   from "D:\wamp\www\app\private\template\index\c-remen.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596570e48683a2_64615655',
+  'unifunc' => 'content_59658eb8b3a122_30316162',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6e30493eb3466b1366ed6496ff01e36f4cf541dc' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\index\\c-remen.html',
-      1 => 1499820258,
+      1 => 1499822146,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596570e48683a2_64615655 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59658eb8b3a122_30316162 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">

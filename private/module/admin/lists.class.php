@@ -94,13 +94,13 @@ class lists extends main{
         $result=$db->where("lid={$lid}")->select();
         $tree=new tree();
         $cid=$result[0]["cid"];
-        $tree->getTree3(0,0,"-",$db->db,"category",$cid);
+        $tree->getTree(0,0,"-",$db->db,"category",$cid);
         $this->smarty->assign("str",$tree->str);
 
-        $posid=empty($result[0]['posid'])?[]:explode(";",$result[0]["posid"]);
+        $posid=empty($result[0]['posid'])?"":explode(";",$result[0]["posid"]);
         $db1=new db("position");
         $pos=$db1->select();
-        $this->smarty->assign("posid",$posid);
+        $this->smarty->assign("id",$posid);
         $this->smarty->assign("position",$pos);
         $this->smarty->assign("res",$result);
         $this->smarty->display("editCon.html");

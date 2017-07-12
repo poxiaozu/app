@@ -32,6 +32,12 @@ class index extends indexMain {
     function dingzhi(){
         $this->smarty->display("dingzhi.html");
     }
+    function gwd(){
+        $this->smarty->display("gwd.html");
+    }
+    function geren(){
+        $this->smarty->display("geren.html");
+    }
     function code(){
         $obj=new code();
         $obj->codeUrl="demo.ttf";

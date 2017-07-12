@@ -72,6 +72,7 @@ $(".jc-china").each(function (index,val) {
 })
 
 $(".con-geren").each(function(index,val) {
+    $(".del").css({"display":"none"});
     $(".del").eq(index).on("taphold",function(){
         $(".del").eq(index).css({"display":"block"});
     })

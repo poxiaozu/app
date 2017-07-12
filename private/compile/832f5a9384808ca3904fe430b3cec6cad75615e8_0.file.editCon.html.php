@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:14:31
+/* Smarty version 3.1.30, created on 2017-07-11 10:10:58
   from "E:\wamp\www\php\private\template\admin\editCon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596586075e7484_78443555',
+  'unifunc' => 'content_596488126587b2_74053643',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '832f5a9384808ca3904fe430b3cec6cad75615e8' => 
     array (
       0 => 'E:\\wamp\\www\\php\\private\\template\\admin\\editCon.html',
-      1 => 1499825661,
+      1 => 1499760656,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596586075e7484_78443555 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596488126587b2_74053643 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -114,15 +114,11 @@ if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
 ?>
     <div class="checkbox" style="margin-left:20px;">
-        <?php if (in_array($_smarty_tpl->tpl_vars['v']->value['posid'],$_smarty_tpl->tpl_vars['posid']->value)) {?>
-        <input type="checkbox" checked name="posid[]" value="<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
-"><?php echo $_smarty_tpl->tpl_vars['v']->value["posname"];?>
 
-        <?php } else { ?>
         <input type="checkbox" name="posid[]" value="<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
 "><?php echo $_smarty_tpl->tpl_vars['v']->value["posname"];?>
 
-        <?php }?>
+
     </div>
     <?php
 }

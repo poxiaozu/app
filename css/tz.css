@@ -181,7 +181,7 @@ header .more{
     background: #23C4A8;
 }
 .jiaqian{
-    width:1.35rem;
+    width:1.45rem;
     height:0.3rem;
     font-size: 0.3rem;
     color: red;
@@ -253,9 +253,9 @@ header .more{
 .jc-js{
     width:6rem;
     height:0.84rem;
-    position: fixed;
-    bottom: 1.6rem;
-    left: 0.75rem;
+    float: left;
+    margin-left: 0.75rem;
+    margin-top: -2.2rem;
     border-radius: 0.5rem;
     background: #EBBD3F;
 }

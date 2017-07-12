@@ -61,9 +61,6 @@ class login extends main{
               $this->smarty->assign("name",$_SESSION["name"]);
               $this->smarty->assign("status",$_SESSION["status"]);
 
-              $time=date("y-m-d h:i:s",time());
-              $this->smarty->assign('currtime', $time);
-
               $this->smarty->display("main.html");
           }else{
               echo "<script>alert('请登陆');location.href='index.php?m=admin&f=login'</script>";
