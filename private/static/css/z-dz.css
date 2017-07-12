@@ -1,0 +1,564 @@
+body{
+    background: #2A2E36;
+}
+header{
+    width:100%;
+    height:1.02rem;
+    background:#169354;
+    position:fixed;
+    left: 0;
+    top:0;
+    z-index: 10;
+}
+.back,.more{
+    width:0.55rem;
+    height:0.55rem;
+    background:#22be6f;
+    border-radius:50%;
+    float:left;
+    margin-top:0.24rem;
+    margin-left:0.24rem;
+    box-shadow: 0 0.06rem 0.12rem -0.04rem rgba(0, 0, 0, 0.176);
+    position:relative;
+    cursor: pointer;
+}
+.back img{
+    width:0.39rem;
+    height:0.39rem;
+    position:absolute;
+    top:0;bottom:0;
+    right:0;left:0;
+    margin:auto;
+}
+header .more{
+    float:right;
+    margin:0.24rem;
+}
+.more img{
+    width:0.39rem;
+    height:0.39rem;
+    position:absolute;
+    top:0;bottom:0;
+    right:0;left:0;
+    margin:auto;
+}
+.title{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:1.02rem;
+}
+.title .t1{
+    color:#1f468d;
+    font-family: "苹方 特粗";
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top:0.23rem;
+    font-weight: bold;
+}
+.title .t2{
+    color:#fff;
+    font-family: "苹方 特粗";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+    position:absolute;
+    top:0.23rem;
+    left:0;right:0;
+    margin:auto;
+    margin-left:-0.08rem;
+}
+.title .t3{
+    color:#1f468d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0.6rem;
+    margin: auto;
+    margin-top: 0.01rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.title .t4{
+    color:#fff;
+    bottom:0.05rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size: 0.3rem;
+    text-align: center;
+    position:absolute;
+    left:0;right:0;
+    top:0.6rem;
+    margin:auto;
+    margin-left:-0.08rem;
+}
+
+
+.banner{
+    width:7rem;
+    height:4.28rem;
+    margin: 1.02rem auto;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.jc1{
+    width:6.28rem;
+    height:1.36rem;
+    background: #A4A6A9;
+    float: right;
+    margin-right: 0.26rem;
+    border-radius: 0.1rem;
+    margin-top: -1.4rem;
+    position: relative;
+    z-index: 2;
+}
+.jc2{
+    width:6.28rem;
+    height:1.36rem;
+    background: #fff;
+    float: right;
+    margin-right: 0.4rem;
+    border-radius: 0.1rem;
+    margin-top: -1.5rem;
+    position: relative;
+    z-index: 3;
+    background-image: url("../img/nan_03.png");
+    background-size: 102%;
+}
+.jc-sc{
+    width:3.3rem;
+    height:0.6rem;
+    /*margin: 1.8rem auto;*/
+    margin-top: 0.8rem;
+    margin-left:2.1rem ;
+    float: left;
+    background: #fff;
+    border-radius: 0.4rem;
+}
+.xz,.sc{
+    width:1.5rem;
+    height:0.6rem;
+    background: #0CBEF1;
+    border-radius: 0.4rem;
+    float: left;
+    margin-left: 0.1rem;
+    font-size: 0.22rem;
+    color: #000;
+    line-height: 0.6rem;
+    text-align: center;
+}
+.xz{
+    background: #fff;
+}
+.con-h{
+    width:100%;
+    height:0.68rem;
+    margin-top:0.2rem;
+    float: left;
+}
+.con-h1{
+    width:4rem;
+    height: 0.2rem;
+    float: left;
+    margin-left: 3.2rem;
+}
+.con-h1 .jc-span1,.con-h1 .jc-span2{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.05rem;
+}
+.con-h1 .jc-span1{
+    background: #437EF2;
+}
+.con-h1 .jc-span2{
+    background: #5FA429;
+}
+.con-h01{
+    width:0.48rem;
+    height: 0.02rem;
+    background: #A9AAAE;
+    float: left;
+    margin-top: 0.015rem;
+}
+.con-h02{
+    width:0.48rem;
+    height: 0.02rem;
+    background: #A9AAAE;
+    float: left;
+    margin-left: 0.05rem;
+    margin-top: 0.015rem;
+}
+.con-h2,.con-h3{
+    width: 3.08rem;
+    height: 0.2rem;
+    text-align: center;
+    line-height: 0.2rem;
+    font-size: 0.2rem;
+    float: left;
+    margin-top: 0.1rem;
+    margin-left: 2.3rem;
+    color: #EDD615;
+}
+.con-h3{
+    color: #DCD8D8;
+}
+.con-h3 span{
+    color: #25769C;
+}
+.con-b{
+    width: 100%;
+    float: left;
+}
+.con-m {
+    width: 7rem;
+    height:2.26rem;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.5rem;
+    background: #fff;
+    border-radius: 0.15rem;
+    position: relative;
+}
+.tx{
+    width:0.72rem;
+    height: 0.72rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+    position: absolute;
+    left:0rem;
+    top:-0.25rem;
+}
+.tx img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    position: absolute;
+    left:0rem;
+    top:0rem;
+}
+.xinxi{
+    width:1.48rem;
+    height: 0.94rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.6rem;
+    position: relative;
+}
+.xinxi span{
+    width: 1.48rem;
+    height: 0.2rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+.xiaopiao{
+    width:0.4rem;
+    height: 0.16rem;
+    border-radius: 0.2rem;
+    font-size: 0.16rem;
+    background:#6BBE26 ;
+    text-align: center;
+    line-height: 0.16rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top:0.42rem;
+}
+.jc-right{
+    width: 5.12rem;
+    height: 2.26rem;
+    float: right;
+}
+.jc-right img{
+    width: 100%;
+    height: 100%;
+}
+.jc-zan{
+    width:1.7rem;
+    height: 0.35rem;
+    margin-left: 0.1rem;
+    float: left;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.jc-zan li:nth-child(1){
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0;
+    top:0.08rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+}
+.jc-zan li:nth-child(2){
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0.25rem;
+    top:0.08rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+}
+.jc-zan li:nth-child(3){
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0.45rem;
+    top:0.08rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+}
+.jc-zan li img{
+    width:100%;
+    height:100%;
+    float: left;
+    border-radius: 50%;
+}
+.jc-shuzi{
+    width: 0.3rem;
+    height: 0.2rem;
+    position: absolute;
+    right: 0.3rem;
+    top:0.1rem;
+    font-size: 0.2rem;
+}
+.jc-tou{
+    width:1.46rem;
+    height: 100%;
+    position: relative;
+}
+.jc-toux1{
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    background: #FBAB33;
+    position: absolute;
+    left: 0.2rem;
+    top:0.2rem;
+}
+.jc-toux2{
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    background: #FBAB33;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.2rem;
+}
+.jc-toux3{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: #437EF2;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.19rem;
+}
+.jc-toux4{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: #437EF2;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.45rem;
+}
+.jc-toux5{
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+    background: #437EF2;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.2rem;
+}
+.jc-toux5 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.jc-xx{
+    width:0.96rem;
+    height: 0.15rem;
+    float: left;
+    margin-left: 0.15rem;
+    font-size: 0.15rem;
+    color: yellow;
+    margin-top: 1.1rem;
+}
+.jc2-right{
+    width: 1.48rem;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    margin-top: -1.3rem;
+    float: left;
+    margin-left: 2rem;
+    position: relative;
+}
+.jc2-right span{
+    width: 1.48rem;
+    height: 0.2rem;
+    margin-top: 0.03rem;
+    float: left;
+}
+.xinji{
+    width: 1.48rem;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    position: absolute;
+    right: -1.5rem;
+    top:0.67rem;
+}
+.dizhi{
+     width:0.2rem;
+     height:0.25rem;
+     float: left;
+     margin-top: 0.1rem;
+ }
+.dizhi img{
+    width: 100%;
+    height: 100%;
+}
+.jc2-zan{
+    width: 1.7rem;
+    height: 0.35rem;
+    position: absolute;
+    right: 0.2rem;
+    top:0.9rem;
+}
+.jc2-zan li:nth-child(1) {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0;
+    top:0.08rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+}
+.jc2-zan li:nth-child(2) {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0.25rem;
+    top:0.08rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+}
+.jc2-zan li:nth-child(3) {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0.45rem;
+    top:0.08rem;
+    border-radius: 50%;
+    border: 0.01rem solid #fff;
+}
+.jc-shuzi2 {
+    width: 0.3rem;
+    height: 0.2rem;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.1rem;
+    font-size: 0.2rem;
+}
+.jc2-zan li img{
+    width:100%;
+    height:100%;
+    float: left;
+    border-radius: 50%;
+}
+.dibu{
+    width:100%;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #242830;
+}
+.db-1,.db-2,.db-3,.db-4{
+    width: 25%;
+    height: 0.98rem;
+    float: left;
+    font-size: 0.2rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+ .sy{
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.sy1{
+    width: 1rem;
+    height: 0.2rem;
+    display: block;
+    font-size: 0.2rem;
+    margin-left: 0.45rem;
+    text-align: center;
+    line-height: 0.2rem;
+}
+.sousuo{
+    width:0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    left:0.2rem;
+    top:0.1rem;
+}
+.sousuo img{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0.2rem;
+    top:0.1rem;
+}
+.geren{
+    width:0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    right:0.2rem;
+    top:0.1rem;
+}
+.geren img{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    right:0.2rem;
+    top:0.1rem;
+}
+.dzh{
+    width: 7.5rem;
+    height: 100%;
+    float: left;
+    color: #fff;
+}
+.dzh1{
+    display: block;
+    margin: 0.15rem auto;
+    font-size:0.28rem;
+    text-align: center;
+}
+.dzh01{
+    display: block;
+    margin: 0.1rem auto;
+    font-size:0.24rem;
+    text-align: center;
+}
+.c-dian{
+    width: 0.02rem;
+    height:0.02rem;
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem #000;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:-0.05rem;
+    margin: auto;
+}
