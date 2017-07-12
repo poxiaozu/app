@@ -106,6 +106,36 @@ class tree{
         }
 
     }
+    function getTree3($pid,$step,$flag,$db,$table,$currentid=null){
+
+        $currentPid=null;
+        if($currentid){
+            $sql="select pid from ".$table." where cid=".$currentid;
+
+            $result=$db->query($sql);
+            $row=$result->fetch_assoc();
+            $currentPid=$row["pid"];
+        }
+        $step+=1;
+        $sql="select * from ".$table." where pid=".$pid;
+        $result=$db->query($sql);
+
+        while ($row=$result->fetch_assoc()) {
+            //  1. 编程类    2.管理类
+            $id=$row["cid"];
+            $catname=$row["cname"];
+            $str=str_repeat($flag,$step);
+            if($id==$currentid) {
+                $this->str .= "<option value='{$id}' selected>{$str}{$catname}</option>";
+            }else{
+                $this->str .= "<option value='{$id}' >{$str}{$catname}</option>";
+            }
+
+            $this->getTree($id,$step,$flag,$db,$table,$currentid);
+
+        }
+
+    }
 
 }
 
