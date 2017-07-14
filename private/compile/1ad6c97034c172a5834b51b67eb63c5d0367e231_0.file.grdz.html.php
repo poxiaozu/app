@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.30, created on 2017-07-14 18:09:49
+=======
+/* Smarty version 3.1.30, created on 2017-07-12 13:19:21
+>>>>>>> origin/master
   from "D:\wamp\www\app\private\template\index\grdz.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
+<<<<<<< HEAD
   'unifunc' => 'content_5968eccd5b40f3_13339619',
+=======
+  'unifunc' => 'content_596605b90437e4_71618982',
+>>>>>>> origin/master
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1ad6c97034c172a5834b51b67eb63c5d0367e231' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\index\\grdz.html',
+<<<<<<< HEAD
       1 => 1500048588,
+=======
+      1 => 1499858359,
+>>>>>>> origin/master
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_5968eccd5b40f3_13339619 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_596605b90437e4_71618982 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> origin/master
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -204,13 +220,21 @@ function content_5968eccd5b40f3_13339619 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 <a href="index.php?m=index&f=index&a=payStyle"><div class="footer">
+=======
+<div class="footer">
+>>>>>>> origin/master
     <input type="button" class="goumai">
     <p class="p2">
         立即购买<br>
         <span>BUY NOW</span>
     </p>
+<<<<<<< HEAD
 </div></a>
+=======
+</div>
+>>>>>>> origin/master
 </body>
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>

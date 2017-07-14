@@ -47,6 +47,7 @@ class index extends indexMain {
     function xzks(){
         $this->smarty->display("chooseStyle.html");
     }
+<<<<<<< HEAD
     function payStyle(){
         $this->smarty->display("payStyle.html");
     }
@@ -68,6 +69,8 @@ class index extends indexMain {
     function wdzl(){
         $this->smarty->display("wdzl.html");
     }
+=======
+>>>>>>> origin/master
     function detail(){
         $lid=$_GET["lid"];
         $db=new db("lists");
