@@ -44,6 +44,9 @@ class login extends indexMain{
 
 
     }
+    function login(){
+        $this->smarty->display("login.html");
+    }
 
     function willLogin(){
             $code=$_POST["code"];

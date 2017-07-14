@@ -6,14 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/choose.css">
-    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/choose.css">
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <script src="{JS_PATH}/rem.js"></script>
 </head>
 <body>
 <header>
-    <div class="back">
-    <img src="img/zn-back.png" alt="">
-</div>
+
     <div class="more">
         <div class="heng"></div>
         <div class="shu"></div>
@@ -26,6 +25,9 @@
         <div class="t3">XUANZEYINHANGKA
         </div>
         <div class="t4">XUANZEYINHANGKA</div>
+    </div>
+    <div class="back" style="position: absolute;z-index:999;">
+        <img src="{IMG_PATH}/zn-back.png" alt="">
     </div>
 </header>
 <div class="zi1">
@@ -51,48 +53,45 @@
         选择银行卡
     </div>
     <div class="js">
-        <img src="img/zn-js.png" alt="">
+        <img src="{IMG_PATH}/zn-js.png" alt="">
         <div class="des">中国建设银行</div>
         <div class="circle"></div>
     </div>
     <div class="js">
-        <img src="img/zn-ny.png" alt="">
+        <img src="{IMG_PATH}/zn-ny.png" alt="">
         <div class="des">中国农业银行</div>
         <div class="circle"></div>
     </div>
     <div class="js">
-        <img src="img/zn-gd.png" alt="">
+        <img src="{IMG_PATH}/zn-gd.png" alt="">
         <div class="des">光大银行</div>
         <div class="circle"></div>
     </div>
     <div class="js">
-        <img src="img/zn-yz.png" alt="">
+        <img src="{IMG_PATH}/zn-yz.png" alt="">
         <div class="des">中国邮政</div>
         <div class="circle"></div>
     </div>
     <div class="js">
-        <img src="img/zn-gs.png" alt="">
+        <img src="{IMG_PATH}/zn-gs.png" alt="">
         <div class="des">中国工商银行</div>
         <div class="circle"></div>
     </div>
     <div class="js">
-        <img src="img/zn-bh.png" alt="">
+        <img src="{IMG_PATH}/zn-bh.png" alt="">
         <div class="des">渤海银行</div>
         <div class="circle"></div>
     </div>
 
 </div>
-<a href="index.php?m=index&f=index&a=pay">
-    <div class="btn">
-        <div class="next">
-            立即支付
-        </div>
-        <div class="enext">
-            NEXT
-        </div>
-
+<a href="index.php?m=index&f=index&a=pay" style="text-underline: none"><div class="btn">
+    <div class="next">
+        立即支付
     </div>
-</a>
+    <div class="enext">
+        NEXT
+    </div>
+</div></a>
 </body>
 <script>
     document.querySelector(".back").onclick=function () {

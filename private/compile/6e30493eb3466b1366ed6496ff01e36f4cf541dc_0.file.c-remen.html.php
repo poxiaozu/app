@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:51:36
+/* Smarty version 3.1.30, created on 2017-07-12 13:02:23
   from "D:\wamp\www\app\private\template\index\c-remen.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59658eb8b3a122_30316162',
+  'unifunc' => 'content_596601bfee4272_62370142',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6e30493eb3466b1366ed6496ff01e36f4cf541dc' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\index\\c-remen.html',
-      1 => 1499822146,
+      1 => 1499857336,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59658eb8b3a122_30316162 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596601bfee4272_62370142 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,9 +39,19 @@ function content_59658eb8b3a122_30316162 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 <header>
+
+    <div class="title">
+        <div class="t1">热门活动
+        </div>
+        <div class="t2">热门活动</div>
+
+        <div class="t3">POPULAR ACTIVITIES
+        </div>
+        <div class="t4">POPULAR ACTIVITIES</div>
+    </div>
     <div class="back">
-        <a href="index.php?m=index&f=index&a=init" style="position:relative;z-index: 999; width:100%;height:100%;display: block"><img src="<?php echo IMG_PATH;?>
-/zn-back.png" alt=""></a>
+        <img src="<?php echo IMG_PATH;?>
+/zn-back.png" alt="">
     </div>
     <div class="more">
         <div class="dian">
@@ -53,15 +63,6 @@ function content_59658eb8b3a122_30316162 (Smarty_Internal_Template $_smarty_tpl)
         <div class="dian">
 
         </div>
-    </div>
-    <div class="title">
-        <div class="t1">热门活动
-        </div>
-        <div class="t2">热门活动</div>
-
-        <div class="t3">POPULAR ACTIVITIES
-        </div>
-        <div class="t4">POPULAR ACTIVITIES</div>
     </div>
 </header>
 <div class="kong2"style="width: 100%;height:1.02rem;"></div>
@@ -106,5 +107,12 @@ function content_59658eb8b3a122_30316162 (Smarty_Internal_Template $_smarty_tpl)
     </ul>
 </div>
 </body>
+<?php echo '<script'; ?>
+>
+    document.querySelector(".back").onclick=function () {
+        location.href=history.go(-1);
+    }
+<?php echo '</script'; ?>
+>
 </html><?php }
 }

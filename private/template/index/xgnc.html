@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minnmum-scale=1,maximum-scale=1,user-scalable=no">
+    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <link rel="stylesheet" href="{CSS_PATH}/xgnc.css">
+</head>
+<body>
+<!--背景-->
+<div class="lhbeijing">
+        <!--返回-->
+        <div class="lhtoubu">
+            <div class="lhfanhui">
+                <a href="geren.html">
+                    <img src="{IMG_PATH}/lhfanhui.png" alt="">
+                </a>
+            </div>
+            <div class="lhzhucezi">
+                <span class="lhzhucezi1">修改昵称</span>
+            </div>
+        </div>
+        <!--dixia-->
+        <div class="lhbuzhou">
+            <div class="lhbuzhou1">
+                <span>1</span>
+            </div>
+            <div class="lhbuzhouhenggan"></div>
+            <div class="lhbuzhou2">
+            </div>
+            <div class="lhbuzhou3">
+            </div>
+        </div>
+        <div class="lhzimu">
+                <span>UPDATE</span>
+        </div>
+        <div class="lhdakuang">
+            <div class="lhyoucezi">
+                <div class="lhyoucehengan">
+
+                </div>
+                <div class="lhyoucezier">
+                    <img src="{IMG_PATH}/lhchaoding1.png" alt="">
+                </div>
+            </div>
+            <div class="lhzhucezhanghaozi">
+                <span>修改昵称</span>
+            </div>
+            <div class="lhzhucezhanghaozimu">
+                <span>UPDATE NAME</span>
+            </div>
+            <div class="lhzhucezhanghaohengang"></div>
+            <div class="lhzhanghaomima">
+                <span>修改昵称</span>
+            </div>
+            <div class="lhzhanghaomimafenge">
+                <span>·····················································</span>
+            </div>
+            <form action="" class="lhfrom">
+                <div class="lhzhanghaoinput" style="margin-top: 30px;">
+                    <div class="lhzhanghaoimg">
+                        <img src="{IMG_PATH}/lhzhanghao.png" alt="">
+                    </div>
+                    <input type="text" placeholder="修改昵称" class="lhshuruzhanghao">
+                </div>
+                <div class="lhyuedu">
+                    <input type="checkbox">
+                    <span>我已经阅读潮定制的条款</span>
+                </div>
+                <div class="lhnext">
+                    <input type="submit" value="NEXT" id="lhnext">
+                    <div class="lhimgnext">
+                        <img src="{IMG_PATH}/lhnext.png" alt="">
+                    </div>
+                    <div class="lhnextzi">
+                        <img src="{IMG_PATH}/lhchaoding2.png" alt="">
+                    </div>
+                </div>
+            </form>
+        </div>
+</div>
+</body>
+<script>
+    document.querySelector(".lhfanhui").onclick=function () {
+        location.href=history.go(-1);
+    }
+</script>
+</html>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 11:16:56
+/* Smarty version 3.1.30, created on 2017-07-14 17:40:07
   from "D:\wamp\www\app\private\template\admin\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59649788301d69_14169197',
+  'unifunc' => 'content_5968e5d7497b24_12541599',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e296705582a4593cd21f0b38b627664018a99a88' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\admin\\main.html',
-      1 => 1499761913,
+      1 => 1499825168,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59649788301d69_14169197 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968e5d7497b24_12541599 (Smarty_Internal_Template $_smarty_tpl) {
+if (!is_callable('smarty_modifier_date_format')) require_once 'D:\\wamp\\www\\app\\private\\libs\\smarty\\plugins\\modifier.date_format.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -207,13 +208,15 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
         <div class="header-k">
             <div class="zi">欢迎<?php echo $_smarty_tpl->tpl_vars['name']->value;?>
 来到后台管理系统</div>
-            <div class="back">2017-6-12 17:33</div>
+            <div class="back" time="<?php echo smarty_modifier_date_format(time(),'%Y-%m-%d %H:%M:%S');?>
+"><?php echo $_smarty_tpl->tpl_vars['currtime']->value;?>
+</div>
         </div>
     </header>
     <div class="neirong">
         <div class="left">
             <div class="gr">
-                <div class="title">七号新闻</div>
+                <div class="title">潮定制</div>
                 <a href="index.php" target="_blank"><img src="<?php echo IMG_PATH;?>
 /1.jpg" alt=""></a>
                 <!--            <div class="zi">公司地址:太原市小店区</div>-->

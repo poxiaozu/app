@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:43:11
+/* Smarty version 3.1.30, created on 2017-07-14 19:09:34
   from "D:\wamp\www\app\private\template\index\geren.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59658cbf4e8821_72420789',
+  'unifunc' => 'content_5968faceb075b6_21979999',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '227f5c1a2ec72fbd05309672f07b4bb477554b5a' => 
     array (
       0 => 'D:\\wamp\\www\\app\\private\\template\\index\\geren.html',
-      1 => 1499827390,
+      1 => 1500052173,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59658cbf4e8821_72420789 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968faceb075b6_21979999 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -76,7 +76,7 @@ function content_59658cbf4e8821_72420789 (Smarty_Internal_Template $_smarty_tpl)
 </p>
 </div>
 <div style="margin-top:0.95rem"></div>
-<div class="con4">
+<a href="index.php?m=index&f=index&a=wdzl"><div class="con4">
     <img src="<?php echo IMG_PATH;?>
 /lx_gr_15.png" alt="" class="img1">
     <span style="float: left">我的资料 DATA</span>
@@ -84,7 +84,7 @@ function content_59658cbf4e8821_72420789 (Smarty_Internal_Template $_smarty_tpl)
 /lx_gr_21.png" alt="" class="img3">
     <img src="<?php echo IMG_PATH;?>
 /lx_gr_18.png" alt="" class="img2">
-</div>
+</div></a>
 <div class="con4">
     <img src="<?php echo IMG_PATH;?>
 /lx_gr_26.png" alt="" class="img1">
@@ -103,24 +103,24 @@ function content_59658cbf4e8821_72420789 (Smarty_Internal_Template $_smarty_tpl)
     <img src="<?php echo IMG_PATH;?>
 /lx_gr_18.png" alt="" class="img2">
 </div>
-<div class="con4">
+<a href="index.php?m=index&f=index&a=xgnc1"><div class="con4">
     <img src="<?php echo IMG_PATH;?>
-/lx_gr_30.png" alt="" class="img1">
-    <span style="float: left">我的消息 NEWS</span>
-    <img src="<?php echo IMG_PATH;?>
-/lx_gr_21.png" alt="" class="img3">
-    <img src="<?php echo IMG_PATH;?>
-/lx_gr_18.png" alt="" class="img2">
-</div>
-<div class="con4">
-    <img src="<?php echo IMG_PATH;?>
-/lx_gr_32.png" alt="" class="img1">
-    <span style="float: left">关于我们 ABOUT US</span>
+/lx_gr_26.png" alt="" class="img1">
+    <span style="float: left">修改昵称 NAME</span>
     <img src="<?php echo IMG_PATH;?>
 /lx_gr_21.png" alt="" class="img3">
+    <a href="xgnc.html"><img src="<?php echo IMG_PATH;?>
+/lx_gr_18.png" alt="" class="img2"></a>
+</div></a>
+<a href="index.php?m=index&f=index&a=xgmm"><div class="con4">
     <img src="<?php echo IMG_PATH;?>
-/lx_gr_18.png" alt="" class="img2">
-</div>
+/lx_gr_28.png" alt="" class="img1">
+    <span style="float: left">修改密码 PASS</span>
+    <img src="<?php echo IMG_PATH;?>
+/lx_gr_21.png" alt="" class="img3">
+    <a href="xgmm.html"><img src="<?php echo IMG_PATH;?>
+/lx_gr_18.png" alt="" class="img2"></a>
+</div></a>
 <div class="con4">
     <img src="<?php echo IMG_PATH;?>
 /lx_gr_34.png" alt="" class="img1">
@@ -132,7 +132,7 @@ function content_59658cbf4e8821_72420789 (Smarty_Internal_Template $_smarty_tpl)
 </div>
 <div class="footer">
     <div class="dibu">
-        <div class="db-1"><a href="index.php">
+        <div class="db-1"><a href="index.php?m=index&f=index&a=main">
             <p class="iconfont icon-shouye sy" style="font-size: 0.3rem;color: #fff"></p>
             <p class="sy1" style="color: #fff">首页</p>
             <div class="c-dian"></div></a>
