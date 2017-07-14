@@ -64,11 +64,7 @@ class login extends main{
               $time=date("y-m-d h:i:s",time());
               $this->smarty->assign('currtime', $time);
 
-<<<<<<< HEAD
               $this->smarty->display("main.html");
-=======
-              $this->smarty->display("index.html");
->>>>>>> origin/master
           }else{
               echo "<script>alert('请登陆');location.href='index.php?m=admin&f=login'</script>";
           }
