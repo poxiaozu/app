@@ -4,6 +4,32 @@ body {
     height: 13.34rem;
     overflow: hidden;
 }
+.lhtoubu {
+    height: .4rem;
+    width: 100%;
+    float: left;
+
+}
+
+.lhfanhui {
+    margin-left: .24rem;
+    width: .4rem;
+    float: left;
+    height: .4rem;
+}
+
+.lhfanhui a {
+    width: .4rem;
+    height: .4rem;
+    float: left;
+}
+
+.lhfanhui img {
+    width: .4rem;
+    height: .4rem;
+    margin-top: -.2rem;
+    display: block;
+}
 
 .bj {
     background: url("../img/lhbj1.jpg") no-repeat center center;
@@ -428,11 +454,11 @@ body {
 .lhzhucezhanghaozi {
     margin-top: .52rem;
     margin-left: .24rem;
-    width: 1.2rem;
-    height: .28rem;
-}
+        width: 3rem;
+        height: .28rem;
+    }
 
-.lhzhucezhanghaozi span {
+    .lhzhucezhanghaozi span {
     font-size: .28rem;
     color: #169354;
     line-height: .28rem;
@@ -679,6 +705,8 @@ body {
     color: red;
     float: left;
     font-weight: 900;
+    overflow: hidden;
+    white-space: normal;
 }
 
 .lhyuedu {
@@ -696,6 +724,8 @@ body {
 .lhyuedu span {
     font-size: .18rem;
     color: #555;
+    overflow: hidden;
+    white-space: normal;
 }
 
 .lhnext {
@@ -748,7 +778,22 @@ body {
     box-shadow: 0rem 0rem 0.2rem 0rem rgba(0,0,0,0.5);
     position: relative;
 }
-
+.lhdianhuainput123 {
+    margin-left: .7rem;
+    height: .8rem;
+    width: .8rem;
+    float: left;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0rem 0rem 0.2rem 0rem rgba(0,0,0,0.5);
+    position: relative;
+}
+.lhdianhuainput123  img{
+   height: .4rem;
+    width: .4rem;
+    display: block;
+    margin: .2rem;
+}
 .lhdianhuainput img {
     height: .8rem;
     width: .8rem;
@@ -756,6 +801,18 @@ body {
 }
 
 .lhinput1 {
+    width: 4rem;
+    height: .8rem;
+    border: none;
+    display: block;
+    float: left;
+    margin-left: .42rem;
+    border-radius: .5rem;
+    padding-left: .5rem;
+    background: #f6f6f6;
+    border: .01rem solid #d4d4d4;
+}
+.lhdlzhanghao {
     width: 4rem;
     height: .8rem;
     border: none;
@@ -791,7 +848,24 @@ body {
     position: relative;
     box-shadow: 0rem 0rem 0.2rem 0rem rgba(0,0,0,0.5);
 }
-
+.lhyanzhengmainput123 {
+    margin-left: .7rem;
+    height: .8rem;
+    width: 1.90rem;
+    float: left;
+    border-radius: .5rem;
+    background: #fff;
+    position: relative;
+    box-shadow: 0rem 0rem 0.2rem 0rem rgba(0,0,0,0.5);
+}
+.lhyanzhengmainput123 a{
+    font-size: .28rem;
+    line-height: .8rem;
+    text-align: center;
+    color: #fbb612;
+    font-weight: 900;
+    display: block;
+}
 .lhyanzhengmainput img  {
     width: .8rem;
     height: .8rem;
@@ -799,7 +873,7 @@ body {
 }
 
 .lhyanzhengma1 {
-    width: 4rem;
+    width: 2.9rem;
     height: .8rem;
     border: none;
     display: block;
@@ -810,6 +884,18 @@ body {
     border-radius: .5rem;
     padding-left: .5rem;
 }
+.lhdlmima {
+     width: 4rem;
+     height: .8rem;
+     border: none;
+     display: block;
+     float: left;
+     background: #f6f6f6;
+     border: .01rem solid #d4d4d4;
+     margin-left: .42rem;
+     border-radius: .5rem;
+     padding-left: .5rem;
+ }
 #lhyanzhengma1-error{
     width: .8rem;
     color: red;
@@ -845,7 +931,13 @@ body {
     height: .92rem;
     margin-top: -.12rem;
 }
-
+#lhdldhen {
+    background: url("../img/lhdenglukuang.png") no-repeat center;
+    background-size: 100%;
+    width: 7.5rem;
+    height: .92rem;
+    margin-top: -.12rem;
+}
 .lhyoucezi {
     width: 1.44rem;
     height: .77rem;
@@ -933,4 +1025,21 @@ label.error{
     height: .8rem;
     line-height: .4rem;
     font-size: .2rem;
+    overflow: hidden;
+    white-space: normal;
+}
+#lhzczhanghao-error{
+    position: absolute;
+    right: -.9rem;
+    top:0;
+}
+#lhfristshurumima-error{
+    position: absolute;
+    right: -.9rem;
+    top:0;
+}
+#lhzcpassword1-error{
+    position: absolute;
+    right: -.9rem;
+    top:0;
 }

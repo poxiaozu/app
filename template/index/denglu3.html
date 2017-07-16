@@ -5,25 +5,35 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minnmum-scale=1,maximum-scale=1,user-scalable=no">
     <script src="{JS_PATH}/rem.js"></script>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/denglu1.css">
-    <script src="js/jQuery.js"></script>
-    <script src="js/jquery.validate.js"></script>
-    <script src="js/messages_zh.js"></script>
-    <script src="js/lhdenglu.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <link rel="stylesheet" href="{CSS_PATH}/denglu1.css">
+    <script src="{JS_PATH}/jQuery.js"></script>
+    <script src="{JS_PATH}/jquery.validate.js"></script>
+    <script src="{JS_PATH}/messages_zh.js"></script>
+    <script src="{JS_PATH}/lhdenglu.js"></script>
 </head>
 <body>
 <!--背景-->
-<div class="bj1">
-    <div class="lhfanhuijian">
+<div class="lhtoubu" style="position: fixed;
+    top:0.72rem;
+    z-index:999;margin-top: 0">
+    <div class="lhfanhui">
         <a href="">
-            <img src="img/lhfanhui.png" alt="">
+            <img src="{IMG_PATH}/lhfanhui.png" alt="" style="display: block;margin-top: 0">
         </a>
     </div>
+</div>
+<script>
+    document.querySelector(".lhfanhui").onclick=function () {
+        location.href=history.go(-1);
+    }
+</script>
+<div class="bj1">
+
     <div class="dayuan">
         <div class="xiaoyuan">
             <div class="touxiang">
-                <img src="img/lhtouxiang.jpg" alt="" id="touxiang">
+                <img src="{IMG_PATH}/lhtouxiang.jpg" alt="" id="touxiang">
             </div>
         </div>
     </div>
@@ -35,17 +45,15 @@
             <div class="lhh">
                 <div class="lhdianhuakuang">
                     <div class="lhdianhuainput">
-                        <img src="img/lhzhanghao.png" alt="">
+                        <img src="{IMG_PATH}/lhzhanghao.png" alt="">
                     </div>
-                    <input type="text" class="lhinput1" placeholder="请输入账号"   name="lhinput1">
-                    <span class="lhinput1tishi"></span>
+                    <input type="text" class="lhdlzhanghao" minlength="6" placeholder="请输入账号"   name="lhdlzhanghao">
                 </div>
                 <div class="lhyanzhengma">
                     <div class="lhyanzhengmainput">
-                        <img src="img/lhmima.png" alt="">
+                        <img src="{IMG_PATH}/lhmima.png" alt="">
                     </div>
-                    <input type="password" class="lhyanzhengma1" placeholder="请输入密码" name="lhyanzhengma1">
-                    <span class="lhyanzhengmatishi"></span>
+                    <input type="password" class="lhdlmima" minlength="6" placeholder="请输入密码" name="lhdlpassword">
                 </div>
                 <div class="lhhenggangdenglu">
                 </div>
@@ -62,12 +70,12 @@
         </div>
         <div class="weixin">
             <a href="" class="weixina">
-                <img src="img/lhwei.png" alt="">
+                <img src="{IMG_PATH}/lhwei.png" alt="">
             </a>
         </div>
         <div class="qq">
             <a href="" class="qqa">
-                <img src="img/lhqq.jpg" alt="">
+                <img src="{IMG_PATH}/lhqq.jpg" alt="">
             </a>
         </div>
     </div>

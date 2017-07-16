@@ -8,6 +8,10 @@ a{
   text-decoration: none;
     color: #fff;
 }
+input{
+    outline: none;
+    border: none;
+}
 ul,li,ol{
     list-style: none;
 }

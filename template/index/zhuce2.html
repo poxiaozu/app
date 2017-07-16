@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minnmum-scale=1,maximum-scale=1,user-scalable=no">
+    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <link rel="stylesheet" href="{CSS_PATH}/denglu1.css">
+</head>
+<body>
+<!--背景-->
+<div class="lhtoubu" style="position: fixed;
+    top:0.72rem;
+    z-index:999;margin-top: 0">
+    <div class="lhfanhui">
+        <a href="">
+            <img src="{IMG_PATH}/lhfanhui.png" alt="" style="display: block;margin-top: 0">
+        </a>
+    </div>
+</div>
+<script>
+    document.querySelector(".lhfanhui").onclick=function () {
+        location.href=history.go(-1);
+    }
+</script>
+<div class="lhbeijing">
+    <div class="lhzhezhao">
+        <!--返回-->
+        <div class="lhtoubu">
+            <div class="lhzhucezi">
+                <span class="lhzhucezi1">注册</span>
+            </div>
+        </div>
+        <!--dixia-->
+        <div class="lhbuzhou">
+            <div class="lhbuzhou1">
+                <span>1</span>
+            </div>
+            <div class="lhbuzhouhenggan"></div>
+            <div class="lhbuzhou2">
+                <span>2</span>
+            </div>
+            <div class="lhbuzhou3">
+            </div>
+        </div>
+        <div class="lhzimu2">
+            <span>INFORMATION</span>
+        </div>
+        <div class="lhdakuang">
+            <div class="lhyoucezi">
+                <div class="lhyoucehengan">
+                    
+                </div>
+                <div class="lhyoucezier">
+                    <img src="{IMG_PATH}/lhchaoding1.png" alt="">
+                </div>
+            </div>
+            <div class="lhzhucezhanghaozi">
+                <span>个人信息</span>
+            </div>
+            <div class="lhzhucezhanghaozimu">
+                <span>PERSONHAL INFORMATION</span>
+            </div>
+            <div class="lhzhucezhanghaohengang"></div>
+            <div class="lhzhanghaomima">
+                <span>基本信息</span>
+            </div>
+            <div class="lhzhanghaomimazimu">
+                <span>Essential</span>
+            </div>
+            <div class="lhzhanghaomimafenge">
+                <span>·····················································</span>
+            </div>
+            <form action="zhuce2.html" class="lhfrom1" method="post">
+                <div class="lhzhanghaoinput">
+                    <div class="lhzhanghaoimg">
+                        <img src="{IMG_PATH}/lhzhanghao.png" alt="">
+                    </div>
+                    <input type="text" placeholder="您的潮名" class="lhshuruzhanghao">
+                </div>
+                <div class="lhmimainput">
+                    <div class="lhmimaimg">
+                        <img src="{IMG_PATH}/lhxb.png" alt="">
+                    </div>
+                    <input type="text" placeholder="您的性别" class="lhshurumima">
+                </div>
+                <div class="lhmimainput1">
+                    <div class="lhmimaimg1">
+                        <img src="{IMG_PATH}/lhdh.png" alt="">
+
+                    </div>
+                    <input type="text" placeholder="您的电话" class="lhshurumima1">
+                </div>
+                <div class="lhmimainput2">
+                    <div class="lhmimaimg2">
+                        <img src="{IMG_PATH}/lhdz.png" alt="">
+                    </div>
+                    <input type="text" placeholder="您的地址" class="lhshurumima1">
+                </div>
+                <a href="index.php?m=index&f=index&a=zuce3"><div class="lhnext">
+                    <input type="button" value="NEXT" id="lhnext">
+                    <div class="lhimgnext">
+                        <img src="{IMG_PATH}/lhnext.png" alt="">
+                    </div>
+                    <div class="lhnextzi">
+                        <img src="{IMG_PATH}/lhchaoding2.png" alt="">
+                    </div>
+                </div></a>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

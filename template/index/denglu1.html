@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minnmum-scale=1,maximum-scale=1,user-scalable=no">
+    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <link rel="stylesheet" href="{CSS_PATH}/denglu1.css">
+    <script src="{JS_PATH}/jquery.js"></script>
+    <script src="{JS_PATH}/jquery.validate.js"></script>
+    <script src="{JS_PATH}/messages_zh.js"></script>
+    <script src="{JS_PATH}/lhdenglu.js"></script>
+</head>
+<body>
+<!--背景-->
+<div class="lhtoubu" style="position: fixed;
+    top:0.72rem;
+    z-index:999;margin-top: 0">
+    <div class="lhfanhui">
+        <a href="">
+            <img src="{IMG_PATH}/lhfanhui.png" alt="" style="display: block;margin-top: 0">
+        </a>
+    </div>
+</div>
+<script>
+    document.querySelector(".lhfanhui").onclick=function () {
+        location.href=history.go(-1);
+    }
+</script>
+<div class="bj">
+    <div class="dayuan">
+        <div class="xiaoyuan">
+            <div class="touxiang">
+                <img src="{IMG_PATH}/lhtouxiang.jpg" alt="" id="touxiang">
+            </div>
+        </div>
+    </div>
+</div>
+<!--下面-->
+<div class="xiamian">
+<!--登录-->
+    <div class="denglu">
+        <a href="index.php?m=index&f=index&a=denglu1">
+        <div class="denglukuang">
+            <input type="button" value="登录" id="denglu" >
+        </div></a>
+        <a href="index.php?m=index&f=index&a=zuce">
+        <div class="zhucekuang">
+            <input type="button" value="注册" id="zhuce">
+        </div></a>
+        <div class="fenge">
+        </div>
+        <span class="sanfang">第三方登录</span>
+        <div class="fenge1">
+        </div>
+        <div class="weixin">
+            <a href="" class="weixina">
+                <img src="{IMG_PATH}/lhwei.png" alt="">
+            </a>
+        </div>
+        <div class="qq">
+            <a href="" class="qqa">
+                <img src="{IMG_PATH}/lhqq.jpg" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -68,6 +68,21 @@ class index extends indexMain {
     function wdzl(){
         $this->smarty->display("wdzl.html");
     }
+    function denglu(){
+        $this->smarty->display("denglu1.html");
+    }
+    function denglu1(){
+        $this->smarty->display("denglu3.html");
+    }
+    function zuce(){
+        $this->smarty->display("zhuce.html");
+    }
+    function zuce2(){
+        $this->smarty->display("zhuce2.html");
+    }
+    function zuce3(){
+        $this->smarty->display("zhuce3.html");
+    }
     function detail(){
         $lid=$_GET["lid"];
         $db=new db("lists");
