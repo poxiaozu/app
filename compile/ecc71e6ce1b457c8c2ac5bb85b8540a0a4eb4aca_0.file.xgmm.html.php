@@ -1,12 +1,41 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-17 03:04:59
+  from "E:\wamp\www\app\template\index\xgmm.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_596c0d3ba15688_56073591',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ecc71e6ce1b457c8c2ac5bb85b8540a0a4eb4aca' => 
+    array (
+      0 => 'E:\\wamp\\www\\app\\template\\index\\xgmm.html',
+      1 => 1500253496,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_596c0d3ba15688_56073591 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minnmum-scale=1,maximum-scale=1,user-scalable=no">
-    <script src="{JS_PATH}/rem.js"></script>
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <link rel="stylesheet" href="{CSS_PATH}/xgmm.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/xgmm.css">
 </head>
 <body>
 <!--背景-->
@@ -15,7 +44,8 @@
         <div class="lhtoubu">
             <div class="lhfanhui">
                 <a href="geren.html">
-                    <img src="{IMG_PATH}/lhfanhui.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/lhfanhui.png" alt="">
                 </a>
             </div>
             <div class="lhzhucezi">
@@ -42,7 +72,8 @@
 
                 </div>
                 <div class="lhyoucezier">
-                    <img src="{IMG_PATH}/lhchaoding1.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/lhchaoding1.png" alt="">
                 </div>
             </div>
             <div class="lhzhucezhanghaozi">
@@ -61,13 +92,15 @@
             <form action="index.php?m=index&f=member&a=editPass" method="post" class="lhfrom">
                 <div class="lhzhanghaoinput">
                     <div class="lhzhanghaoimg">
-                        <img src="{IMG_PATH}/lhmima.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/lhmima.png" alt="">
                     </div>
                     <input type="text" placeholder="输入原密码" name="oldpass" class="lhshuruzhanghao">
                 </div>
                 <div class="lhmimainput">
                     <div class="lhmimaimg">
-                        <img src="{IMG_PATH}/lhmima.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/lhmima.png" alt="">
                     </div>
                     <input type="password" placeholder="输入新密码" name="mpass" class="lhshurumima">
                 </div>
@@ -78,19 +111,24 @@
                 <div class="lhnext">
                     <input type="submit" value="NEXT" id="lhnext">
                     <div class="lhimgnext">
-                        <img src="{IMG_PATH}/lhnext.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/lhnext.png" alt="">
                     </div>
                     <div class="lhnextzi">
-                        <img src="{IMG_PATH}/lhchaoding2.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/lhchaoding2.png" alt="">
                     </div>
                 </div>
             </form>
         </div>
 </div>
 </body>
-<script>
+<?php echo '<script'; ?>
+>
     document.querySelector(".lhfanhui").onclick=function () {
         location.href=history.go(-1);
     }
-</script>
-</html>
+<?php echo '</script'; ?>
+>
+</html><?php }
+}

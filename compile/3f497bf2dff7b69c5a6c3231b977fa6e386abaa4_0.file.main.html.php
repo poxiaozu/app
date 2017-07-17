@@ -1,18 +1,54 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-16 17:45:32
+  from "E:\wamp\www\app\template\index\main.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_596b8a1cbde4e4_41976617',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '3f497bf2dff7b69c5a6c3231b977fa6e386abaa4' => 
+    array (
+      0 => 'E:\\wamp\\www\\app\\template\\index\\main.html',
+      1 => 1500219931,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_596b8a1cbde4e4_41976617 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <title>Document</title>
-    <link rel="stylesheet" href="{CSS_PATH}/c-index.css">
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <link rel="stylesheet" href="{CSS_PATH}/iconfont.css">
-    <script src="{JS_PATH}/mui.min.js"></script>
-    <link href="{CSS_PATH}/mui.min.css" rel="stylesheet"/>
-    <script type="text/javascript" charset="utf-8">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/c-index.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/iconfont.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/mui.min.js"><?php echo '</script'; ?>
+>
+    <link href="<?php echo CSS_PATH;?>
+/mui.min.css" rel="stylesheet"/>
+    <?php echo '<script'; ?>
+ type="text/javascript" charset="utf-8">
         mui.init();
-    </script>
-    <script src="{JS_PATH}/rem.js"></script>
+    <?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
 </head>
 <body style="background: #2A2E36;">
 
@@ -29,10 +65,12 @@
         <div class="t4">CHEN CUSTOMIZED</div>
     </div>
     <div class="c-sou">
-        <a href="index.php?m=index&f=index&a=sou" style="width:100%;height:100%;display:block;position:relative;z-index: 999;"> <img src="{IMG_PATH}/c-19.png" alt=""></a>
+        <a href="index.php?m=index&f=index&a=sou" style="width:100%;height:100%;display:block;position:relative;z-index: 999;"> <img src="<?php echo IMG_PATH;?>
+/c-19.png" alt=""></a>
     </div>
     <a href="index.php?m=index&f=login&a=denglu"><div class="c-tou">
-        <img src="{IMG_PATH}/c-18.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+/c-18.png" alt="">
     </div></a>
 </header>
 <div class="kong2" style="width: 100%;height:1.02rem;"></div>
@@ -45,15 +83,27 @@
         </a>
     </div>
     <!-- 第一张 -->
-    {foreach $lunbo as $v}
-    <div class="mui-slider-item  c-lunbo" style="background-image: url({$v['imgurl']})">
-        <a href="index.php?m=index&f=index&a=detail&lid={$v['lid']}" style="width:100%;height:100%">
+    <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['lunbo']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
+    <div class="mui-slider-item  c-lunbo" style="background-image: url(<?php echo $_smarty_tpl->tpl_vars['v']->value['imgurl'];?>
+)">
+        <a href="index.php?m=index&f=index&a=detail&lid=<?php echo $_smarty_tpl->tpl_vars['v']->value['lid'];?>
+" style="width:100%;height:100%">
 
         </a>
     </div>
-    {/foreach}
+    <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
     <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
-    <div class="mui-slider-item mui-slider-item-duplicate c-lunbo" style="background-image: url('{IMG_PATH}/c-7.jpg')">
+    <div class="mui-slider-item mui-slider-item-duplicate c-lunbo" style="background-image: url('<?php echo IMG_PATH;?>
+/c-7.jpg')">
         <a href="#">
         </a>
     </div>
@@ -119,19 +169,33 @@
     </div>
     <div class="c-nei2">
         <ul class="c-tu">
-            {foreach $dz as $dz1}
+            <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['dz']->value, 'dz1');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['dz1']->value) {
+?>
             <li>
-                <a href="index.php?m=index&f=index&a=detail&lid={$dz1['lid']}"><img src="{$dz1['imgurl']}" alt=""></a>
+                <a href="index.php?m=index&f=index&a=detail&lid=<?php echo $_smarty_tpl->tpl_vars['dz1']->value['lid'];?>
+"><img src="<?php echo $_smarty_tpl->tpl_vars['dz1']->value['imgurl'];?>
+" alt=""></a>
                 <div class="c-tu1">
-                    <div class="c-tu4">{$dz1['price']}</div>
+                    <div class="c-tu4"><?php echo $_smarty_tpl->tpl_vars['dz1']->value['price'];?>
+</div>
                     <div class="c-tu2">RMB</div>
-                    <div class="c-tu3">{$dz1['dengji']}</div>
+                    <div class="c-tu3"><?php echo $_smarty_tpl->tpl_vars['dz1']->value['dengji'];?>
+</div>
                 </div>
             </li>
-            {/foreach}
+            <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
 
         </ul>
-        <img src="{IMG_PATH}/c-6.jpg" alt="" style="position: absolute;left: 0;bottom:0;width: 100%;height:2.65rem;z-index: -22">
+        <img src="<?php echo IMG_PATH;?>
+/c-6.jpg" alt="" style="position: absolute;left: 0;bottom:0;width: 100%;height:2.65rem;z-index: -22">
     </div>
     <div class="c-nei1" style="margin-top: 0.6rem">
         <div class="c-biao">
@@ -221,11 +285,17 @@
     <div class="mui-slider c-nei3">
         <div class="mui-slider-group c-nei3-1">
             <!--第一个内容区容器-->
-            {foreach $jx as $jx1}
-            <a href="index.php?m=index&f=index&a=detail&lid={$jx1['lid']}">
+            <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['jx']->value, 'jx1');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['jx1']->value) {
+?>
+            <a href="index.php?m=index&f=index&a=detail&lid=<?php echo $_smarty_tpl->tpl_vars['jx1']->value['lid'];?>
+">
             <div class="mui-slider-item">
                 <!-- 具体内容 -->
-                <div class="c-kuang5" style="background-image: url({$jx1['imgurl']})">
+                <div class="c-kuang5" style="background-image: url(<?php echo $_smarty_tpl->tpl_vars['jx1']->value['imgurl'];?>
+)">
 
                 </div>
                 <div class="c-kuang6">
@@ -235,25 +305,35 @@
 
                 </div>
                 <div class="c-zi8">
-                    {$jx1['title']}
+                    <?php echo $_smarty_tpl->tpl_vars['jx1']->value['title'];?>
+
                 </div>
                 <div class="c-xian" style="width: 0.81rem;height:0.01rem; background: #fff;">
 
                 </div>
                 <div class="c-zi9">
-                    {$jx1['jianjie']}
+                    <?php echo $_smarty_tpl->tpl_vars['jx1']->value['jianjie'];?>
+
                 </div>
                 <div class="c-zi10">
-                    <span style="float: left"> {$jx1['price']}</span>
+                    <span style="float: left"> <?php echo $_smarty_tpl->tpl_vars['jx1']->value['price'];?>
+</span>
                     <span style="font-family: 'San Francisco Display';font-size: 0.22rem;color:#fff; float: left;margin: 0.05rem 0.5rem 0 0.05rem">RMB</span>
-                   <!-- <img src="{IMG_PATH}/c-8.png" alt="" style="float: left">
+                   <!-- <img src="<?php echo IMG_PATH;?>
+/c-8.png" alt="" style="float: left">
                     <span style="font-size: 0.18rem;color:#fff; float: left;margin-left: 0.1rem">12865</span>
-                    <img src="{IMG_PATH}/c-9.png" alt="" style="float: left;margin-left: 0.1rem">
+                    <img src="<?php echo IMG_PATH;?>
+/c-9.png" alt="" style="float: left;margin-left: 0.1rem">
                     <span style="font-size: 0.18rem;color:#fff;float: left;margin-left: 0.1rem">105</span>-->
                 </div>
             </div></a>
             <!--第二个内容区-->
-          {/foreach}
+          <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
         </div>
     </div>
     <div class="c-nei1">
@@ -282,11 +362,17 @@
             </ul>
         </div>
     </div>
-    {foreach $pz as $pz1}
+    <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['pz']->value, 'pz1');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['pz1']->value) {
+?>
     <div class="c-nei4">
-        <a href="index.php?m=index&f=index&a=detail&lid={$pz1['lid']}">
+        <a href="index.php?m=index&f=index&a=detail&lid=<?php echo $_smarty_tpl->tpl_vars['pz1']->value['lid'];?>
+">
         <div class="c-la">
-            <div class="c-touxiang" style="background-image: url({$pz1['imgurl']})">
+            <div class="c-touxiang" style="background-image: url(<?php echo $_smarty_tpl->tpl_vars['pz1']->value['imgurl'];?>
+)">
 
             </div>
             <div class="c-shu"></div>
@@ -294,10 +380,12 @@
                 SHIRT
             </div>
             <div class="c-zi13">
-                {$pz1['title']}
+                <?php echo $_smarty_tpl->tpl_vars['pz1']->value['title'];?>
+
             </div>
             <div class="c-zi14">
-               {$pz1['jianjie']}
+               <?php echo $_smarty_tpl->tpl_vars['pz1']->value['jianjie'];?>
+
             </div>
             <div class="c-touxiang1">
 
@@ -319,7 +407,12 @@
             </div>
         </div></a>
     </div>
-    {/foreach}
+    <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
     <div class="kong" style="width: 100%;height:1rem;"></div>
 </div>
 <div class="dibu">
@@ -346,6 +439,13 @@
 </div>
 
 </body>
-<script src="{JS_PATH}/jquery.js"></script>
-<script src="{JS_PATH}/cc.js"></script>
-</html>
+<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jquery.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/cc.js"><?php echo '</script'; ?>
+>
+</html><?php }
+}

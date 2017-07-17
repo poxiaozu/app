@@ -1,16 +1,57 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-16 17:56:18
+  from "E:\wamp\www\app\template\index\denglu3.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_596b8ca29903a7_75654126',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '5a9b31a8f0c8c215a4548f2aa5f8612e29369c6e' => 
+    array (
+      0 => 'E:\\wamp\\www\\app\\template\\index\\denglu3.html',
+      1 => 1500220571,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_596b8ca29903a7_75654126 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minnmum-scale=1,maximum-scale=1,user-scalable=no">
-    <script src="{JS_PATH}/rem.js"></script>
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <link rel="stylesheet" href="{CSS_PATH}/denglu1.css">
-    <script src="{JS_PATH}/jQuery.js"></script>
-    <script src="{JS_PATH}/jquery.validate.js"></script>
-    <script src="{JS_PATH}/messages_zh.js"></script>
-    <script src="{JS_PATH}/lhdenglu.js"></script>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/denglu1.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jquery.validate.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/messages_zh.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/lhdenglu.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
 <!--背景-->
@@ -19,21 +60,25 @@
     z-index:999;margin-top: 0">
     <div class="lhfanhui">
         <a href="">
-            <img src="{IMG_PATH}/lhfanhui.png" alt="" style="display: block;margin-top: 0">
+            <img src="<?php echo IMG_PATH;?>
+/lhfanhui.png" alt="" style="display: block;margin-top: 0">
         </a>
     </div>
 </div>
-<script>
+<?php echo '<script'; ?>
+>
     document.querySelector(".lhfanhui").onclick=function () {
         location.href=history.go(-1);
     }
-</script>
+<?php echo '</script'; ?>
+>
 <div class="bj1">
 
     <div class="dayuan">
         <div class="xiaoyuan">
             <div class="touxiang">
-                <img src="{IMG_PATH}/lhtouxiang.jpg" alt="" id="touxiang">
+                <img src="<?php echo IMG_PATH;?>
+/lhtouxiang.jpg" alt="" id="touxiang">
             </div>
         </div>
     </div>
@@ -45,13 +90,15 @@
             <div class="lhh">
                 <div class="lhdianhuakuang">
                     <div class="lhdianhuainput">
-                        <img src="{IMG_PATH}/lhzhanghao.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/lhzhanghao.png" alt="">
                     </div>
                     <input type="text" class="lhdlzhanghao" minlength="6" placeholder="请输入账号"   name="mname">
                 </div>
                 <div class="lhyanzhengma">
                     <div class="lhyanzhengmainput">
-                        <img src="{IMG_PATH}/lhmima.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/lhmima.png" alt="">
                     </div>
                     <input type="password" class="lhdlmima" minlength="6" placeholder="请输入密码" name="mpass">
                 </div>
@@ -70,15 +117,18 @@
         </div>
         <div class="weixin">
             <a href="" class="weixina">
-                <img src="{IMG_PATH}/lhwei.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/lhwei.png" alt="">
             </a>
         </div>
         <div class="qq">
             <a href="" class="qqa">
-                <img src="{IMG_PATH}/lhqq.jpg" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/lhqq.jpg" alt="">
             </a>
         </div>
     </div>
 </div>
 </body>
-</html>
+</html><?php }
+}

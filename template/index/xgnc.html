@@ -58,12 +58,18 @@
             <div class="lhzhanghaomimafenge">
                 <span>·····················································</span>
             </div>
-            <form action="" class="lhfrom">
-                <div class="lhzhanghaoinput" style="margin-top: 30px;">
+            <form action="index.php?m=index&f=member&a=editNC" method="post" class="lhfrom">
+                <div class="lhzhanghaoinput" >
                     <div class="lhzhanghaoimg">
                         <img src="{IMG_PATH}/lhzhanghao.png" alt="">
                     </div>
-                    <input type="text" placeholder="修改昵称" class="lhshuruzhanghao">
+                    <input type="text" placeholder="旧昵称" class="lhshuruzhanghao" name="oldname" value="{$nicheng}">
+                </div>
+                <div class="lhzhanghaoinput" style="margin-top: 1.3rem">
+                    <div class="lhzhanghaoimg">
+                        <img src="{IMG_PATH}/lhzhanghao.png" alt="">
+                    </div>
+                    <input type="text" placeholder="新昵称" name="nicheng" class="lhshuruzhanghao">
                 </div>
                 <div class="lhyuedu">
                     <input type="checkbox">

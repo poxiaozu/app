@@ -18,12 +18,16 @@
 </div>
 <div class="height" style="height:0.46rem"></div>
 <div class="con2">
+    {if $res[0]['photo']==""}
     <img src="{IMG_PATH}/lx_gr_07.png" alt="" style="height:1.86rem">
+    {else}
+    <img src="{$res[0]['photo']}" alt="" style="height:1.86rem;width:1.86rem;border-radius: 50%;">
+    {/if}
 </div>
 <div class="height" style="height:0.25rem"></div>
 <div class="con3">
 <p class="p1">
-    Mr JaKycg<br/>
+    {$res[0]["mname"]}<br/>
     LV<span style="color:red;">10</span>
     <span class="wjxing">
          <img src="{IMG_PATH}/lx_1_03.png" alt="">
@@ -53,24 +57,24 @@
     <img src="{IMG_PATH}/lx_gr_21.png" alt="" class="img3">
     <img src="{IMG_PATH}/lx_gr_18.png" alt="" class="img2">
 </div>
-<a href="index.php?m=index&f=index&a=xgnc1"><div class="con4">
+<a href="index.php?m=index&f=member&a=xgnc1"><div class="con4">
     <img src="{IMG_PATH}/lx_gr_26.png" alt="" class="img1">
     <span style="float: left">修改昵称 NAME</span>
     <img src="{IMG_PATH}/lx_gr_21.png" alt="" class="img3">
     <a href="xgnc.html"><img src="{IMG_PATH}/lx_gr_18.png" alt="" class="img2"></a>
 </div></a>
-<a href="index.php?m=index&f=index&a=xgmm"><div class="con4">
+<a href="index.php?m=index&f=member&a=xgmm"><div class="con4">
     <img src="{IMG_PATH}/lx_gr_28.png" alt="" class="img1">
     <span style="float: left">修改密码 PASS</span>
     <img src="{IMG_PATH}/lx_gr_21.png" alt="" class="img3">
     <a href="xgmm.html"><img src="{IMG_PATH}/lx_gr_18.png" alt="" class="img2"></a>
 </div></a>
-<div class="con4">
+<a href="index.php?m=index&f=login&a=logout"><div class="con4">
     <img src="{IMG_PATH}/lx_gr_34.png" alt="" class="img1">
-    <span style="float: left">设置 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SET UP</span>
+    <span style="float: left">退出登陆 &nbsp;&nbsp;LOGOUT</span>
     <img src="{IMG_PATH}/lx_gr_21.png" alt="" class="img3">
     <img src="{IMG_PATH}/lx_gr_18.png" alt="" class="img2">
-</div>
+</div></a>
 <div class="footer">
     <div class="dibu">
         <div class="db-1"><a href="index.php?m=index&f=index&a=main">

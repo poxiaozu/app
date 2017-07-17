@@ -3,7 +3,7 @@ header("content-type:text/html;charset=utf-8");
 define("COMING","yes");
 $server=$_SERVER;
 define("ROOT_PATH",$server["DOCUMENT_ROOT"]);
-define("APP_PATH",ROOT_PATH."app/private");
+define("APP_PATH",ROOT_PATH."app");
 
 define("LIBS_PATH",APP_PATH."/libs");
 define("TPL_PATH",APP_PATH."/template");

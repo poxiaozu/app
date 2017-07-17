@@ -39,7 +39,15 @@ class index extends indexMain {
         $this->smarty->display("gwd.html");
     }
     function geren(){
-        $this->smarty->display("geren.html");
+        if($this->session->get("indexLogin")){
+            $mid=$this->session->get("mid");
+            $db=new db("member");
+            $res=$db->where("mid={$mid}")->select();
+            $this->smarty->assign("res",$res);
+            $this->smarty->display("geren.html");
+        }else{
+            $this->jump("您未登陆","index.php?m=index&f=login&a=login1");
+        }
     }
     function shangchuan(){
         $this->smarty->display("shangchuan.html");
@@ -59,24 +67,10 @@ class index extends indexMain {
     function pay(){
         $this->smarty->display("pay.html");
     }
-    function xgnc1(){
-        $this->smarty->display("xgnc.html");
-    }
-    function xgmm(){
-        $this->smarty->display("xgmm.html");
-    }
     function wdzl(){
         $this->smarty->display("wdzl.html");
     }
-    function denglu(){
-        $this->smarty->display("denglu1.html");
-    }
-    function denglu1(){
-        $this->smarty->display("denglu3.html");
-    }
-    function zuce(){
-        $this->smarty->display("zhuce.html");
-    }
+
     function zuce2(){
         $this->smarty->display("zhuce2.html");
     }
