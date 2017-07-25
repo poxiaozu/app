@@ -69,9 +69,11 @@ class login extends indexMain{
                     $this->session->set("mid",$v["mid"]);
                     $this->session->set("nicheng",$v["nicheng"]);
                     $this->jump("登陆成功","index.php?m=index&f=index&a=main");
+                    exit();
                 }
             }
         }
+        $this->jump("用户名或密码错误","index.php?m=index&f=login&a=login1");
     }
     function willLogin(){
         $mname=$_POST["mname"];

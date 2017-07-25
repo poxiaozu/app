@@ -117,11 +117,14 @@ header .more{
     margin-right:0.39rem;
     margin-top:0.39rem;
 }
-.main .lunbo:first-child{
+.main .lunbo:first-child.active{
     width:6.23rem;
     height:9.84rem;
     margin-left:0.63rem;
     margin-top:0rem;
+}
+.main .lunbo.active{
+    margin-left:0;
 }
 .biaoqian{
     width:6.23rem;

@@ -66,7 +66,7 @@ class lists extends main{
         $price=$_POST["price"];
         $con=$_POST["con"];
         $imgurl=$_POST["imgurl"];
-        $posid=empty($_POST["posid"])?"":implode(";",$_POST["posid"]);
+        $posid=empty($_POST["posid"])?0:implode(";",$_POST["posid"]);
         $db=new db("lists");
         $result=$db->insert("cid={$cid},title='{$title}',keywords='{$keywords}',jianjie='{$jianjie}',price='{$price}',con='{$con}',imgurl='{$imgurl}',posid='{$posid}'");
         if($result>0){
@@ -122,7 +122,7 @@ class lists extends main{
         $price=$_POST["price"];
         $con=$_POST["con"];
         $imgurl=$_POST["imgurl"];
-        $posid=empty($_POST["posid"])?"":implode(";",$_POST["posid"]);
+        $posid=empty($_POST["posid"])?0:implode(";",$_POST["posid"]);
         $db=new db("lists");
         $result=$db->update("cid={$cid},title='{$title}',keywords='{$keywords}',jianjie='{$jianjie}',price='{$price}',con='{$con}',imgurl='{$imgurl}',posid='{$posid}' where lid={$lid}");
         if($result>0){

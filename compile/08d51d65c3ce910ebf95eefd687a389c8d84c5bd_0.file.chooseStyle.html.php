@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-16 17:31:16
+/* Smarty version 3.1.30, created on 2017-07-24 05:52:44
   from "E:\wamp\www\app\template\index\chooseStyle.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596b86c40264a3_79401628',
+  'unifunc' => 'content_59756f0ce30c45_96668468',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '08d51d65c3ce910ebf95eefd687a389c8d84c5bd' => 
     array (
       0 => 'E:\\wamp\\www\\app\\template\\index\\chooseStyle.html',
-      1 => 1500218070,
+      1 => 1500255978,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596b86c40264a3_79401628 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59756f0ce30c45_96668468 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -35,6 +35,14 @@ function content_596b86c40264a3_79401628 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>
 /rem.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jquery.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/zn.js"><?php echo '</script'; ?>
 >
 </head>
 <body>
@@ -67,7 +75,7 @@ function content_596b86c40264a3_79401628 (Smarty_Internal_Template $_smarty_tpl)
 <div class="main">
     <div class="rongqi">
         <img src="<?php echo IMG_PATH;?>
-/xzks1.jpg" class="lunbo">
+/xzks1.jpg" class="lunbo active">
         <img class="lunbo" src="<?php echo IMG_PATH;?>
 /xzks2.jpg" alt="">
     </div>
