@@ -39,23 +39,30 @@
             <div class="jc-toux3"></div>
             <div class="jc-toux4"></div>
             <div class="jc-toux5">
-                <a href="javascript:;">
-                    <img src="{IMG_PATH}/jc-t2.jpg" alt="">
+                {foreach $jcdzo as $v}
+                <a href="index.php? m=index&f=index&a=detail&lid={$v['lid']}">
+                    <img src="{$v['imgurl']}" alt=""  style="position: relative;left: 0;top: 0;">
                 </a>
+                {/foreach}
             </div>
-            <div class="jc-xx">★★★★★</div>
+            {foreach $jcxx as $jcxx1}
+            <div class="jc-xx">{$jcxx1['dengji']}</div>
         </div>
         <div class="jc2-right">
-            <span style="color: #000">Designer cg</span>
+            <span style="color: #000">{$jcxx1['title']}</span>
             <span style="color: #447FF2;line-height: 0.1rem">...........</span>
-            <span style="color: #646464;line-height: 0.1rem">Jacket</span>
-            <span style="color: #FBAC29">▲▲▲▲▲</span>
-            <div class="xinji" style="color: red">LV 5.0</div>
+            <span style="color: #646464;line-height: 0.1rem">{$jcxx1['jianjie']}</span>
+            <span style="color: #FBAC29">{$jcxx1['dengji']}</span>
+            <div class="xinji" style="color: red">{$jcxx1['price']}</div>
             <div class="dizhi">
                 <img src="{IMG_PATH}/jc-dizhi_07.png" alt="">
             </div>
-            <p style="display:block;float:left;margin-left:0.05rem;margin-top: 0.1rem">山西 忻州</p>
+            {/foreach}
+            {foreach $jcdz as $jcdz1}
+            <p style="display:block;float:left;margin-left:0.05rem;margin-top: 0.1rem">{$jcdz1['keywords']}</p>
+            {/foreach}
         </div>
+
         <div class="jc2-zan">
             <li>
                 <a href="javascript:;">
@@ -72,8 +79,9 @@
                     <img src="{IMG_PATH}/jc-zan.jpg" alt="">
                 </a>
             </li>
-            <div class="jc-shuzi2">12345</div>
+            <div class="jc-shuzi2">{$jcdz1['dzrs']}</div>
         </div>
+
     </div>
     <div class="jc-sc">
         <a href="index.php?m=index&f=index&a=shangchuan"><div class="sc">
@@ -97,22 +105,25 @@
             潮 <span>|</span> 流 <span>|</span> 推 <span>|</span> 荐
         </div>
     </div>
+{foreach $jcgr as $jcgr1}
     <div class="con-b">
         <div class="con-m">
             <div class="tx">
-                <a href="javascript:;">
-                    <img src="{IMG_PATH}/zjc-t1.jpg" alt="">
+                <a href="index.php? m=index&f=index&a=detail&lid={$v['lid']}">
+                    <img src="{$jcgr1['imgurl']}" alt="">
                 </a>
             </div>
             <div class="xinxi">
-                <span style="color: #000;font-size: 0.2rem">JACKE CG</span>
-                <span style="color:#565454;font-size: 0.2rem">2017</span>
-                <span style="color:#8D8D8D;font-size: 0.2rem">Red skirt</span>
-                <span style="color:#6C97F4;font-size: 0.2rem">￥ 1999</span>
+                <span style="color: #000;font-size: 0.2rem">{$jcgr1['title']}</span>
+                <span style="color:#565454;font-size: 0.2rem">{$jcgr1['keywords']}</span>
+                <span style="color:#8D8D8D;font-size: 0.2rem">{$jcgr1['jianjie']}</span>
+                <span style="color:#6C97F4;font-size: 0.2rem">{$jcgr1['price']}</span>
                 <div class="xiaopiao">TOP</div>
             </div>
             <div class="jc-right">
-                <img src="{IMG_PATH}/jc-t2_07.png" alt="">
+                <a href="index.php? m=index&f=index&a=detail&lid={$jcgr1['lid']}">
+                        <img src="{jcgr1['bjtu']}" alt="">
+                 </a>
             </div>
             <div class="jc-zan">
                 <li>
@@ -130,47 +141,11 @@
                         <img src="{IMG_PATH}/jc-zan.jpg" alt="">
                     </a>
                 </li>
-                <div class="jc-shuzi">12345</div>
+                <div class="jc-shuzi">{$jcgr1['dzrs']}</div>
             </div>
         </div>
     </div>
-    <div class="con-b">
-        <div class="con-m">
-            <div class="tx">
-                <a href="javascript:;">
-                    <img src="{IMG_PATH}/zjc-t1.jpg" alt="">
-                </a>
-            </div>
-            <div class="xinxi">
-                <span style="color: #000;font-size: 0.2rem">JACKE CG</span>
-                <span style="color:#565454;font-size: 0.2rem">2017</span>
-                <span style="color:#8D8D8D;font-size: 0.2rem">Red skirt</span>
-                <span style="color:#6C97F4;font-size: 0.2rem">￥ 1999</span>
-                <div class="xiaopiao">TOP</div>
-            </div>
-            <div class="jc-right">
-                <img src="{IMG_PATH}/jc-t2_07.png" alt="">
-            </div>
-            <div class="jc-zan">
-                <li>
-                    <a href="javascript:;">
-                        <img src="{IMG_PATH}/jc-zan.jpg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:;">
-                        <img src="{IMG_PATH}/jc-zan.jpg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:;">
-                        <img src="{IMG_PATH}/jc-zan.jpg" alt="">
-                    </a>
-                </li>
-                <div class="jc-shuzi">12345</div>
-            </div>
-        </div>
-    </div>
+{/foreach}
     <div class="kong" style="width:7.5rem;height: 1.2rem;float: left"></div>
 <div class="dibu">
     <div class="db-1"><a href="index.php?m=index&f=index&a=main">

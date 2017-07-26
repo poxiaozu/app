@@ -33,6 +33,18 @@ class index extends indexMain {
         $this->smarty->display("c-sousuo.html");
     }
     function dingzhi(){
+        $db=new db("lists");
+        $jcdzo=$db->where("lid like '7'")->select();
+        $this->smarty->assign("jcdzo",$jcdzo);
+
+        $jcxx=$db->where("lid like '15'")->select();
+        $this->smarty->assign("jcxx",$jcxx);
+
+        $jcdz=$db->where("lid like '16'")->select();
+        $this->smarty->assign("jcdz",$jcdz);
+
+        $jcgr=$db->where("posid like '%9%'")->select();
+        $this->smarty->assign("jcgr",$jcgr);
         $this->smarty->display("dingzhi.html");
     }
     function gwd(){
